@@ -1,0 +1,189 @@
+.App {
+  text-align: left;
+}
+
+.main {
+  padding-top: 9vh;
+  padding-bottom: 10vw;
+}
+
+.gray-theme {
+  text-rendering: optimizeSpeed;
+  /* background-color: rgb(240, 240, 240); */
+  color: var(--alias-color-text-primary-default);
+  font-family: Helvetica Neue,Arial,Hiragino Kaku Gothic ProN,Hiragino Sans,Meiryo,sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4em;
+  min-height: 100vh;
+
+}
+/* body {
+  background-color: rgb(240, 240, 240);
+}
+header {
+  background-color: white;
+} */
+
+.Title {
+  /* background-color: white; */
+  /* min-height: 1px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: 25px;
+  color: black;
+  /* background: url(./images/batsu.jpg) left top/45px auto no-repeat; */
+  border-bottom: 1px solid rgb(220, 220, 220);
+  background-color: white;
+  font-weight: bold; 
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+}
+.Title .explanation-node {
+  font-size: 24px;
+}
+
+.batsu {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.information {
+  text-align: left;
+  color: gray;
+  background-color: rgb(240, 240, 240);
+  font-size: 8;
+  margin:0;
+  padding:0;
+  padding-top: 20px;
+}
+
+.input-node {
+  padding: 0px;
+  text-align: left;
+  margin: 0px;
+}
+
+.explanation-node {
+  color: gray;
+  font-size: 18px;
+}
+
+/* header .explanation-node {
+  font-size: 22px;
+} */
+.explanation-node0 {
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.wrapper {
+  margin: 30px;
+  font-weight: bold;
+}
+
+.input-node::placeholder {
+  position: relative;
+  color: gray;
+  text-align: left;
+}
+
+.lightgray {
+  color: gray;
+}
+
+.input-node {
+  height: 5vh;
+  width: 90vw;
+}
+
+.barcode {
+  height: 4vh;
+  width: 50vw;
+}
+
+.enter {
+  height: 5vh;
+  width: 15vw;
+}
+
+.input-node1 {
+  height: 5vh;
+  width: 90vw;
+}
+
+.input-node::placeholder {
+  padding: 1vh;
+  margin: 1vh;
+}
+
+.sentaku {
+  padding: 1vh;
+  margin: 1vh;
+  color: gray;
+}
+
+select:invalid {
+  color: gray;
+}
+
+/* select {
+  appearance: none;
+} */
+
+/* .container::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 0px;
+  border-top: solid 2px #5bc0de;
+  border-right: solid 2px #5bc0de;
+  -ms-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position: relative;
+  top: 50%;
+  left: 100px;
+  margin-top: -4px;
+
+} */
