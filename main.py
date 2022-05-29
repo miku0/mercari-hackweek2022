@@ -31,5 +31,5 @@ def root():
 def show_item_info(barcode_num):
     result_json = test_api.GetInfo(barcode_num)
     result = test_api.GetInfo(result_json)
-    return result
+    return result #{'name': name, 'category':category,'description': description,'transportation_method':transportation_method}
 
