@@ -38,7 +38,8 @@ def show_item_info(barcode_num):
 
 @app.get("/items/barcode")
 def get_item():
-    isbn = test_barcode.ReadBarcode()
+    #isbn = test_barcode.ReadBarcode()
+    isbn = 9784151200748
     result_json = test_api.GetInfo(isbn)
     result = test_api.GetInfo(result_json)
     return result #{'name': name, 'category':category,'description': description,'transportation_method':transportation_method}
